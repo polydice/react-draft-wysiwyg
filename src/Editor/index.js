@@ -452,7 +452,7 @@ export default class WysiwygEditor extends Component {
             blockStyleFn={blockStyleFn}
             customStyleMap={getCustomStyleMap()}
             handleReturn={this.handleReturn}
-            handlePastedText={this.handlePastedText}
+            handlePastedText={this.editorProps.stripPastedStyles ? undefined : this.handlePastedText}
             blockRendererFn={this.blockRendererFn}
             handleKeyCommand={this.handleKeyCommand}
             ariaLabel={ariaLabel || 'rdw-editor'}
