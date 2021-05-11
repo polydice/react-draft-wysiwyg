@@ -1600,17 +1600,17 @@ draft-js@^0.10.1:
     immutable "~3.7.4"
     object-assign "^4.1.0"
 
-draftjs-to-html@^0.7.4:
-  version "0.7.4"
-  resolved "https://registry.yarnpkg.com/draftjs-to-html/-/draftjs-to-html-0.7.4.tgz#6932b2ebae5c74bd70bc996f2b51d04f4688a48b"
+draftjs-to-html@^0.7.5:
+  version "0.7.6"
+  resolved "https://registry.yarnpkg.com/draftjs-to-html/-/draftjs-to-html-0.7.6.tgz#95bc55aeeca6c6a7abc242c5616946704c6685c9"
 
-draftjs-to-markdown@^0.4.3:
-  version "0.4.3"
-  resolved "https://registry.yarnpkg.com/draftjs-to-markdown/-/draftjs-to-markdown-0.4.3.tgz#c0ecc188db1e9ad9f3d54785c80954e86fbfe62b"
+draftjs-to-markdown@^0.4.4:
+  version "0.4.5"
+  resolved "https://registry.yarnpkg.com/draftjs-to-markdown/-/draftjs-to-markdown-0.4.5.tgz#1cb2da90bf7790ff23e24891441882a40fca6d53"
 
-draftjs-utils@^0.8.03:
-  version "0.8.4"
-  resolved "https://registry.yarnpkg.com/draftjs-utils/-/draftjs-utils-0.8.4.tgz#b8d6500d71a7b33fcc690c67afa8f3f8c12ff503"
+draftjs-utils@^0.8.07:
+  version "0.8.8"
+  resolved "https://registry.yarnpkg.com/draftjs-utils/-/draftjs-utils-0.8.8.tgz#5835daed95f59d3ee1f96fdcbbb9809772c86490"
 
 ecc-jsbn@~0.1.1:
   version "0.1.1"
@@ -2177,8 +2177,8 @@ home-or-tmp@^2.0.0:
     os-tmpdir "^1.0.1"
 
 hosted-git-info@^2.1.4:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.5.0.tgz#6d60e34b3abbc8313062c3b798ef8d901a07af3c"
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
 
 html-comment-regex@^1.1.0:
   version "1.1.1"
@@ -3604,11 +3604,11 @@ react-dom@^15.6.1:
     object-assign "^4.1.0"
     prop-types "^15.5.10"
 
-"react-draft-wysiwyg@file:../":
-  version "1.10.7"
+"react-draft-wysiwyg@file:..":
+  version "1.10.12"
   dependencies:
     classnames "^2.2.5"
-    draftjs-utils "^0.8.03"
+    draftjs-utils "^0.8.07"
     prop-types "^15.5.10"
 
 react-proxy@^1.1.7:
